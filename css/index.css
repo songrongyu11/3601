@@ -1,0 +1,246 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-29 10:25:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-30 09:00:58
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 顶栏开始 */
+.header{
+	width: 4rem;
+	height: 0.53rem;
+	background: #212121;
+}
+.header_left{
+	width: 1.41rem;
+	height: 0.52rem;
+	background: #212121;
+	float: left;
+	padding-left: 0.19rem;
+}
+.icon1{
+width: 0.33rem;
+height: 100%;
+background: #212121;
+float: left;
+}
+#id1{
+	font-size: 0.29rem;
+	color: #ffffff;
+	float: left;
+	line-height: 0.53rem;
+}
+.word{
+
+width: 0.3rem;
+height: 0.33rem;
+background: #212121;
+float: left;
+font-size: 0.16rem;
+text-align: center;
+padding-top: 0.16rem;
+color: #ffffff;
+font-weight: bold;
+}
+.word1{
+width: 0.3rem;
+height: 0.33rem;
+background: #212121;
+float: left;
+font-size: 0.12rem;
+text-align: center;
+padding-top: 0.18rem;
+color: #ffffff;
+}
+.header_right{
+	width: 0.64rem;
+	height: 0.52rem;
+	background:  #212121;
+	float: right;
+	}
+	#id2{
+	font-size: 0.29rem;
+	color: #595959;
+	float: right;
+	line-height: 0.53rem;
+	margin-right: 0.19rem;
+}
+.big_banner{
+	width: 4rem;
+	height: 5.62rem;
+	background: url('../img/b1.jpg') no-repeat center;
+	background-size: cover;
+	border-bottom: 1px bolid #ffffff;
+
+}
+/* <!-- 商品栏开始 --> */
+.good{
+	width: 4rem;
+	height: 2.5rem;
+	/* background: skyblue; */
+	margin-top: 1px;
+	background: url('../img/good1.jpg') no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+
+.line1{
+	
+	width: 4rem;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	font-weight: normal;
+	text-align: center;
+	color: #666666;
+	position: absolute;
+	top: 0.27rem;
+
+}
+.line2{
+	margin-top: 0.08rem;
+	width: 4rem;
+	height: 0.18rem;
+	/* background: red; */
+	font-size: 0.16rem;
+	font-weight: normal;
+	text-align: center;
+	color: #666666;
+	position: absolute;
+	top: 0.45rem;
+}
+.good2{
+	width: 4rem;
+	height: 2.5rem;
+	margin-top: 1px;
+	background: url('../img/a2.jpg') no-repeat center;
+	background-size: cover;
+	position: relative;
+
+}
+.good3{
+	width: 4rem;
+	height: 2.5rem;
+	margin-top: 1px;
+	background: url('../img/a3.jpg') no-repeat center;
+	background-size: cover;
+	position: relative;
+	border-bottom: 1px solid ##ffffff;
+
+}
+.good4{
+	width: 4rem;
+	height: 2.5rem;
+	margin-top: 1px;
+	background: url('../img/a4.jpg') no-repeat center;
+	background-size: cover;
+	position: relative;
+
+}
+.foot{
+	width: 4rem;
+	height: 1.94rem;
+	background: #f9f9f9;
+	margin-top: 0.01rem;
+	overflow: hidden;
+}
+.out{
+	width: 3.6rem;
+	height: 1.53rem;
+	background: #f9f9f9;
+	margin: 0 auto;
+	margin-top: 0.19rem;
+}
+.list{
+	width: 3.6rem;
+	height: 0.38rem;
+
+	background: #f9f9f9;
+	border-bottom: 1px solid #cccccc;
+	font-size: 0.14rem;
+}
+
+.left{
+	width: 0.56rem;
+	height: 0.38rem;
+	color: #666666;
+	font-size: 0.14rem;
+	float: left;
+	line-height: 0.38rem;
+	font-weight: bold;
+
+}
+.right{
+	width: 0.36rem;
+	height: 0.38rem;
+	color: #666666;
+	font-size: 0.14rem;
+	float: right;
+	line-height: 0.38rem;
+	text-align: center;
+
+}
+.foot1{
+	width: 4rem;
+	height: 1.02rem;
+	background: #f9f9f9;
+}
+.foot2{
+	width: 3.8rem;
+	height: 1.02rem;
+	background: #f9f9f9;
+	margin: 0 auto;
+	border-bottom: 1px solid #e2e2e2;
+	overflow: hidden;
+
+}
+.lines1{
+	width: 3.8rem;
+	height: 0.2rem;
+	background: #f9f9f9;
+	font-size: 0.14rem;
+	text-align: center;
+	color: #666666;
+	margin-top: 0.05rem;
+}
+.lines11{
+	font-weight: bold;
+	color: #333333;
+	margin-top: 0.05rem;
+}
+
+.foot3{
+	width: 4rem;
+	height: 1.43rem;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.lines2{
+	width: 3.8rem;
+	height: 0.12rem;
+	margin: 0 auto;
+	background: #f9f9f9;font-size: 0.12rem;
+	margin-top: 0.18rem;
+	color: #aaaaaa;
+	
+}
+.lines3{
+	margin-top: 0.07rem;
+	margin-bottom: 0.07rem;
+}
+
+.lines4{
+	height: 0.45rem;
+	width: 3.68rem;
+	background: red;
+	/* margin: 0 auto; */
+	background: url('../img/aaa.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.1rem;
+
+}
+
